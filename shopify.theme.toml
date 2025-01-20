@@ -1,4 +1,8 @@
-[environments.dev]
+[environments.main]
 store = "kikstart-samarth-gohel"
 password  = "shptka_74f9ffc9d6cd9b1633146101a99f3e23"
 theme = "142638710970"
+
+[environments.dev]
+store = "kikstart-samarth-gohel"
+password  = "shptka_74f9ffc9d6cd9b1633146101a99f3e23"

@@ -1,0 +1,36 @@
+.collection-tabs {
+    --color-link: --color-foreground;
+    display: flex;
+    margin: 0 0 15px;
+    padding: 0;
+    list-style: none;
+    gap: 20px;
+}
+.collection-tabs li a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.collection-tabs li a.active{
+    text-decoration: underline;
+}
+.tabLoader.loading-overlay {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+    padding: 0 1.5rem;
+    opacity: 0.7;
+    position: absolute;
+    z-index: 999;
+}
+.tabLoader.loading-overlay.loading {
+    display: block;
+}
+#collectiontabs .select .icon-caret{    
+    position: absolute;
+    inset: 0  2rem 0 auto;
+    margin: auto;
+    backface-visibility: visible;
+}
